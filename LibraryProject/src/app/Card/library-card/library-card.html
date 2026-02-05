@@ -1,1 +1,13 @@
-<p>library-card works!</p>
+<div *ngFor="let n of libraryData">
+    <div class="container">
+        <div class="box">
+            <div>FirstName: {{n.firstname}}</div>
+            <div>LastName : {{n.lastname}}</div>
+            <div>Salary : {{n.salary}}</div>
+            <div>Designation :{{n.designation}}</div>
+            <div>Place : {{n.place}}</div>
+            <div>District: {{n.district}}</div>
+        </div>
+    </div>
+
+</div>

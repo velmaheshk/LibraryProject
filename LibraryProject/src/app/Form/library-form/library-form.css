@@ -1,0 +1,13 @@
+.container
+{
+    display: flexbox;
+    background-color: burlywood;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.box{
+    text-align-last: center;
+    padding: 30px;
+    background-color:  cornflowerblue;
+    border-radius: 50px;
+}

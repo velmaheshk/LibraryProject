@@ -1,1 +1,14 @@
-<p>library-form works!</p>
+
+<div class="container">
+    <div class="box">
+        <form>
+        <div>First Name</div>
+        <div><input type="text" class="form-style" [formControl]="fname" placeholder="First Name"> </div>
+        <div>Last Name </div>
+        <div><input type="text" class="form-style" [formControl]="lname" placeholder="Last Name"></div>
+        <div><input type="button" (click)="onSubmit($event)" value="Submit"></div>
+        </form>
+    </div>
+</div>
+
+

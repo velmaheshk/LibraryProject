@@ -1,0 +1,12 @@
+.container
+{
+    display: flexbox;
+    background-color: burlywood;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.box{
+    padding: 30px;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
